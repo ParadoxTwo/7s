@@ -21,7 +21,7 @@ export default function ContentModal(props) {
             </ul>
             <br/>
             <div style={{textAlign: 'center'}}>
-                <img style = {{height:'300px', width: '400px'}} src={"/"+props.img} />
+                <img style = {{height:'100%', width: '100%'}} src={"/"+props.img} />
             </div>
             </p>
         </Modal.Body>
